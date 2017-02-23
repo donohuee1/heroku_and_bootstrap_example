@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Cupcake.create({
+  :flavor => "Chocolate Chip",
+  :quantity => 13,
+  :price => 1.25
+  })
